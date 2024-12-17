@@ -4,7 +4,7 @@ from scrapy import Selector
 import json
 import time
 
-startTime = time.time()
+startTime = time.time() 
 # Getting all the stores details
 url = "https://storelocator.unes.it/wp-admin/admin-ajax.php?action=get_all_store"
 stores = requests.get(url).json()
